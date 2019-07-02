@@ -1,4 +1,4 @@
-package com.example.onestepandroid
+package com.example.onestepandroid.ui
 
 import android.support.v7.widget.RecyclerView
 import android.util.Log
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.example.onestepandroid.R
 
 class SimpleAdapter(val list: List<String>) :
     RecyclerView.Adapter<SimpleAdapter.SomeViewHolder>() {
